@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/interactive-carrd.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="front-card">
+          <img src="../images/card-logo.svg" alt="" />
+          <div class="info">
+            <div class="card-number-front">0000 0000 0000 0000</div>
+            <div>
+              <div class="name">Karam ALghazi</div>
+              <div class="date">09/24</div>
+            </div>
+          </div>
+        </div>
+        <div class="back-card">
+          <div class="cvc-back">000</div>
+        </div>
+      </div>
+      <div class="right">
+        <form action="">
+          <div class="name-input">
+            <label for="name">cardholder name</label>
+            <input type="text" placeholder="e.g Karam ALghazi" id="name" />
+          </div>
+          <div class="card-number">
+            <label for="number">card number</label>
+            <input
+              type="text"
+              placeholder="e.g 1234 5678 9123 0000"
+              id="number"
+            />
+          </div>
+          <div class="date-cvc">
+            <div class="exp-date">
+              <label for="month">exp. date (mm/yy)</label>
+              <div>
+                <input type="text" placeholder="MM" id="month" />
+              </div>
+              <div class="">
+                <input type="text" placeholder="YY" />
+              </div>
+            </div>
+            <div class="cvc">
+              <label for="cvc">cvc</label>
+              <input type="text" placeholder="e.g. 123" />
+            </div>
+          </div>
+          <div class="confirm"><input type="button" value="Confirm" /></div>
+        </form>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
